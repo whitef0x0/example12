@@ -16,9 +16,15 @@ public class CarQueueTest {
     }
 
     @Test
-    public void test() {
+    public void test1() {
         carQ.print( );
         assertEquals(carQ.getTotalWashTime(), 79);
+    }
+    
+    @Test
+    public void test2() {
+    	carQ.removeCar();
+    	assertEquals(carQ.getTotalWashTime(), 64);
     }
 
 }
