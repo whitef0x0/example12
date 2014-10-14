@@ -3,6 +3,7 @@ Example 12: Recursive Lists
 
 
 This example serves two purposes:
+
 1. To illustrate the power of subtyping in processing a variety of data;
 2. To illustrate recursive datatypes using a simple list structure.
 
@@ -38,7 +39,8 @@ public abstract class AbstractCar {
 ```
 
 This abstract class is extended as follows:
-** Civic **
+
+**Civic**
 
 ```java
 public class Civic extends AbstractCar {
@@ -77,7 +79,7 @@ public class Civic extends AbstractCar {
 }
 ```
 
-** Tesla **
+**Tesla**
 
 ```java
 public class Tesla extends AbstractCar {
