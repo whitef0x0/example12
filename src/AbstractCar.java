@@ -23,7 +23,7 @@ public abstract class AbstractCar {
      * Get a string to identify the car. This method must be implemented by the
      * classes that extend AbstractCar.
      * 
-     * @return
+     * @return the car identifier
      */
     public abstract String getCarId();
 
